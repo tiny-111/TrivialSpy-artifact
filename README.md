@@ -36,3 +36,7 @@ $DRRUN -t trivialspy -- ./bin/is.C.x
 ```
 
 The profiling results are stored in a newly generated folder `x86-<hostname>-<pid>-trivialspy`. In the result folder, the overview profiles are listed in `trivialspy.log` and the per-thread detailed profiles as well as the source code attributions are listed in `thread-<n>.log`.
+
+## Tested Platforms
+
+We have tested TrivialSpy on Intel(R) Xeon(R) CPU E5-2680 v4 (Intel Broadwell) platform.
